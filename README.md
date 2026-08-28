@@ -12,8 +12,9 @@ O projeto é desenvolvido como Trabalho Interdisciplinar da disciplina **TIS V �
 
 ## Orientadores
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* Artur Martins Mol
+* João Paulo Carneiro Aramuni
+* Leonardo Vilela Cardoso
 
 ## Documentação
 

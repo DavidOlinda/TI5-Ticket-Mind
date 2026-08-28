@@ -10,9 +10,11 @@
 
 Professores:
 
-**Prof. Nome do Prof 1**
+**Prof. Artur Martins Mol**
 
-**Prof. Nome do Prof 2**
+**Prof. João Paulo Carneiro Aramuni**
+
+**Prof. Leonardo Vilela Cardoso**
 
 ---
 
