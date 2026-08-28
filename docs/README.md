@@ -1,10 +1,10 @@
-# TITULO DO PROJETO
+# TICKET MIND
 
-**Nome completo do Aluno 1, email do aluno 1**
+**David Olinda Pomine — [@DavidOlinda](https://github.com/DavidOlinda)**
 
-**Nome completo do Aluno 2, email do aluno 2**
+**Arthur Modesto — [@ArthurModesto1](https://github.com/ArthurModesto1)**
 
-**Nome completo do Aluno 3, email do aluno 3**
+**Bernardo Carvalho — [@bernardocdm](https://github.com/bernardocdm)**
 
 ---
 
@@ -16,14 +16,13 @@ Professores:
 
 ---
 
-_Curso de Engenharia de Software, Campus Lourdes_
+_Curso de Engenharia de Software, Campus Coração Eucarístico_
 
-_Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Minas Gerais (PUC MINAS), Belo Horizonte – MG – Brasil_
+_Instituto de Informática e Ciências Exatas – Pontifícia Universidade Católica de Minas Gerais (PUC MINAS), Belo Horizonte – MG – Brasil_
 
 ---
 
-_**Resumo**. Escrever aqui o resumo. O resumo deve contextualizar rapidamente o trabalho, descrever seu objetivo e, ao final,
-mostrar algum resultado relevante do trabalho (até 10 linhas)._
+_**Resumo**. O mercado de eventos e ingressos é marcado pela alta rotatividade de ofertas e pela rápida exaustão de lotes, o que faz com que muitos consumidores percam eventos de seu interesse simplesmente por não tomarem conhecimento deles a tempo. Este trabalho apresenta o projeto arquitetural do Ticket Mind, uma plataforma distribuída de recomendação e notificação em tempo real que aprende as preferências do usuário e o alerta assim que um evento ou ingresso compatível com o seu perfil se torna disponível. A arquitetura proposta é composta por um web service REST, clientes web e móvel híbrido construídos sobre um mesmo ecossistema de linguagem, e um middleware de mensageria baseado em canais que sustenta a entrega simultânea de atualizações a múltiplos clientes conectados. O documento detalha os requisitos funcionais e não-funcionais, as restrições e os mecanismos arquiteturais adotados, bem como as justificativas técnicas de cada decisão._
 
 ---
 
@@ -66,10 +65,11 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
 
 # Ferramentas
 
-_Inclua o URL do repositório (Github, Bitbucket, etc) onde você armazenou o código da sua prova de conceito/protótipo arquitetural da aplicação como anexos. A inclusão da URL desse repositório de código servirá como base para garantir a autenticidade dos trabalhos._
-
-| Ambiente              | Plataforma        | Link de Acesso                |
-| --------------------- | ----------------- | ----------------------------- |
-| Repositório de código | GitHub            | https://github.com/XXXXXXX    |
-| Hospedagem do site    | Heroku            | https://XXXXXXX.herokuapp.com |
-| Protótipo Interativo  | MavelApp ou Figma | https://figma.com/XXXXXXX     |
+| Ambiente                  | Plataforma       | Link de Acesso                                         |
+| ------------------------- | ---------------- | ------------------------------------------------------ |
+| Repositório de código     | GitHub           | https://github.com/DavidOlinda/TI5-Ticket-Mind          |
+| Gestão do projeto (Kanban)| GitHub Projects  | _a definir_                                            |
+| Hospedagem do front-end   | Vercel           | _a definir_                                            |
+| Hospedagem do back-end    | Render           | _a definir_                                            |
+| Banco de dados e Realtime | Supabase         | _a definir_                                            |
+| Protótipo Interativo      | Figma            | _a definir_                                            |

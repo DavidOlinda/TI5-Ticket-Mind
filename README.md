@@ -1,20 +1,24 @@
-# Nome do projeto
+# Ticket Mind
 
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+O **Ticket Mind** é uma plataforma de recomendação e notificação em tempo real aplicada ao mercado de eventos e ingressos. O sistema aprende as preferências de cada usuário — artistas, categorias, gêneros e times — e o notifica assim que surge um evento ou ingresso compatível com o seu perfil, evitando que ele descubra o evento tarde demais ou apenas quando os ingressos já se esgotaram.
+
+O projeto é desenvolvido como Trabalho Interdisciplinar da disciplina **TIS V — Aplicações Distribuídas**, do curso de Engenharia de Software da PUC Minas, e contempla aplicação web, aplicação móvel híbrida, comunicação via web service e middleware de mensageria para processamento em tempo real.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* David Olinda — [@DavidOlinda](https://github.com/DavidOlinda)
+* Arthur Modesto — [@ArthurModesto1](https://github.com/ArthurModesto1)
+* Bernardo Carvalho — [@bernardocdm](https://github.com/bernardocdm)
 
 ## Orientadores
 
 * Nome completo do professor 1
 * Nome completo do professor 2
 
+## Documentação
+
+A documentação de arquitetura do projeto está em [`docs/`](docs/README.md).
+
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
-
+Assim que a primeira versão do sistema estiver disponível, esta seção será complementada com as instruções de instalação de dependências e execução da aplicação.
