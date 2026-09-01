@@ -1,30 +1,30 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: TicketMind
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: Modesto
+    given-names: Arthur
+  - family-names: Carvalho
+    given-names: Bernardo
+  - family-names: Olinda
+    given-names: David
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Vilela
+    given-names: Leonardo
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Martins
+    given-names: Arthur
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Carneiro
+    given-names: João Paulo
 keywords:
-  - 
-  - 
+  - TicketMind
+  - Agência de Ingressos
+  - Agência de Shows
+  - Agência de Eventos
 repository-code: 
 license: CC-BY-4.0
 version: 1.0.0
