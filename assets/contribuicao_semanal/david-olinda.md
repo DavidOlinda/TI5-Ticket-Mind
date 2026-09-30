@@ -55,3 +55,38 @@
 
 - A Seção 1 não incluiria estatísticas de mercado sem fonte citável.
 - O projeto seria registrado como acadêmico sem parceiro externo, com os professores no papel de cliente e avaliador.
+
+---
+
+# Sprint 4
+
+### Semana 1 (15/09 - 21/09)
+
+**Cliente web — cadastro, login e sessão autenticada (PB23, PB32, RF001)** (`code/front`)
+
+- Criação do cliente web em React + TypeScript + Vite, consumindo a API real desde o primeiro commit.
+- Cliente HTTP centralizado (`src/lib/api.ts`), que repassa à tela as mensagens de erro produzidas pelo back-end, e sessão do usuário via Context API (`src/lib/auth-context.tsx`), com o token persistido no navegador.
+- Telas de início, cadastro, login e área autenticada, com a proteção das rotas privadas (`ProtectedRoute.tsx`).
+
+**Avaliação heurística (PB17)** (`docs/6.avaliacao_heuristica.md`)
+
+- Avaliação heurística de usabilidade sobre o protótipo de referência de UX (Lovable), com os problemas encontrados e as evidências, e registro de que ela deve ser revisitada quando o protótipo em Figma (PB16) existir.
+- Atualização do status dos itens da Sprint 3 no Product Backlog, com a nota sobre o estágio real de PB20–PB23.
+
+**Revisão e integração**
+
+- Revisão e merge das Pull Requests #47 (back-end de autenticação) e #48 (front-end de autenticação).
+
+### Semana 2 (22/09 - 28/09)
+
+**Catálogo de eventos — back-end (PB37–PB39, PB41, RF003, RF006)** (`code/back`)
+
+- Tabelas `eventos` e `ofertas` no schema, com índices para a busca por categoria e data.
+- Rotas públicas `GET /api/eventos` (busca por nome, categoria e data) e `GET /api/eventos/:id` (detalhe do evento com suas ofertas), com validação das entradas e 404 para evento inexistente.
+- Script de ingestão manual do catálogo (`scripts/seed-eventos.ts`, `npm run db:seed`), com eventos de exemplo e links para plataformas reais de venda de ingresso.
+- Testes automatizados do módulo de eventos (`test/eventos.schemas.test.ts`, `test/eventos.service.test.ts`).
+
+**Catálogo de eventos e layout do protótipo — front-end** (`code/front`)
+
+- Telas "Descobrir" (`Eventos.tsx`), com busca e filtros por categoria e data, e de detalhe do evento (`EventoDetalhe.tsx`), com as ofertas e o botão que leva ao canal oficial de compra.
+- Aplicação do layout do protótipo de referência em todo o cliente web: cabeçalho, card de evento, estados de carregamento, ícones e reestilização das telas de início, feed, interesses, login e cadastro.
