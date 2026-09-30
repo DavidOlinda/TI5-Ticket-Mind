@@ -58,6 +58,39 @@
 
 ---
 
+# Sprint 3
+
+### Semana 1 (01/09 - 08/09)
+
+**Visão Lógica e modelo de dados (PB15)**
+
+- `docs/4.modelagem.md` — elaboração dos quatro diagramas do documento de arquitetura, em Mermaid, versionados junto ao próprio Markdown:
+  - Figura 1, visão geral da solução, do interesse declarado pelo usuário até o direcionamento ao canal oficial de compra;
+  - Figura 2, diagrama de classes, com oito classes de domínio, seus atributos, métodos e cardinalidades;
+  - Figura 3, diagrama de componentes, com a distinção entre os componentes reutilizados e os que serão desenvolvidos, e o mapeamento de cada um aos requisitos não-funcionais correspondentes;
+  - Figura 4, diagrama de entidade e relacionamento, com sete entidades, chaves primárias e estrangeiras, e a justificativa de duas decisões de modelagem.
+- Substituição das imagens de exemplo herdadas do template e remoção das legendas que atribuíam ao grupo a autoria de figuras que não eram do grupo.
+
+**Correção da Visão do Produto**
+
+- `docs/2.nosso_produto.md` — ajuste da subseção 2.1 para as sete lacunas do template de Visão do Produto da Lean Inception, que estavam reduzidas a seis por fusão dos campos "O [nome do produto]" e "é um [categoria do produto]".
+
+**Substituição do middleware de mensageria**
+
+- Revisão da decisão arquitetural de mensageria após o veto da disciplina ao uso do Supabase, por abstrair o trabalho arquitetural que o projeto deve demonstrar. A camada passou a ser explícita e dividida em três responsabilidades: RabbitMQ, hospedado no CloudAMQP, como middleware de mensageria, com *topic exchange* roteando cada notificação por chave de interesse e filas duráveis com *ack* e *dead letter queue*; gateway Socket.IO no back-end, consumindo as filas e mantendo conexão persistente com cada cliente; e PostgreSQL gerenciado no Neon, desacoplado da mensageria.
+- Atualização dos mecanismos arquiteturais e das justificativas em `docs/3.requisitos.md`, da tabela de ferramentas em `docs/README.md`, da lista de tecnologias e das variáveis de ambiente no `README.md`, da linha de custo do Termo de Abertura e dos itens PB10, PB22 e PB24 do Product Backlog.
+
+**Apresentação da Visão do Produto**
+
+- Preparação dos slides de problema, público-alvo e proposta de valor, seguindo a abordagem de Lean Inception, incluindo o levantamento e a verificação das evidências utilizadas.
+
+**Decisões de gerência tomadas na semana**
+
+- Os relatórios de contribuição das sprints anteriores não seriam reescritos após a troca do middleware, por serem registros datados das decisões vigentes à época.
+- O caso utilizado como evidência do problema seria aquele em que havia ingresso disponível e faltou aviso, e não o de escassez de estoque, por ser o que corresponde ao problema que o produto resolve.
+
+---
+
 # Sprint 4
 
 ### Semana 1 (15/09 - 21/09)
